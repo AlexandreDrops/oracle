@@ -1,0 +1,165 @@
+[INFO] 2023-03-28 00:17:39,581 - #####################################################
+[INFO] 2023-03-28 00:17:39,581 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:17:39,582 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:17:39,583 - Loading OCI config
+[INFO] 2023-03-28 00:17:39,584 - Initialize service client with default config file
+[INFO] 2023-03-28 00:17:40,019 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:17:40,019 - Check current instances in account
+[INFO] 2023-03-28 00:20:07,172 - #####################################################
+[INFO] 2023-03-28 00:20:07,172 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:20:07,225 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:20:07,225 - Loading OCI config
+[INFO] 2023-03-28 00:20:07,226 - Initialize service client with default config file
+[INFO] 2023-03-28 00:20:07,727 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:20:07,728 - Check current instances in account
+[INFO] 2023-03-28 00:23:55,742 - #####################################################
+[INFO] 2023-03-28 00:23:55,743 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:23:55,745 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:23:55,746 - Loading OCI config
+[INFO] 2023-03-28 00:23:55,747 - Initialize service client with default config file
+[INFO] 2023-03-28 00:23:56,307 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:23:56,308 - Check current instances in account
+[INFO] 2023-03-28 00:24:07,390 - #####################################################
+[INFO] 2023-03-28 00:24:07,391 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:24:07,392 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:07,393 - Loading OCI config
+[INFO] 2023-03-28 00:24:07,395 - Initialize service client with default config file
+[INFO] 2023-03-28 00:24:07,900 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:07,900 - Check current instances in account
+[INFO] 2023-03-28 00:24:10,194 - #####################################################
+[INFO] 2023-03-28 00:24:10,195 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:24:10,197 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:10,197 - Loading OCI config
+[INFO] 2023-03-28 00:24:10,199 - Initialize service client with default config file
+[INFO] 2023-03-28 00:24:10,703 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:10,703 - Check current instances in account
+[INFO] 2023-03-28 00:24:12,683 - #####################################################
+[INFO] 2023-03-28 00:24:12,683 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:24:12,684 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:12,686 - Loading OCI config
+[INFO] 2023-03-28 00:24:12,687 - Initialize service client with default config file
+[INFO] 2023-03-28 00:24:13,200 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:24:13,200 - Check current instances in account
+[INFO] 2023-03-28 00:27:18,899 - #####################################################
+[INFO] 2023-03-28 00:27:18,899 - Script to spawn VM.Standard.E2.1.Micro instance
+[INFO] 2023-03-28 00:27:18,900 - Start spawning instance VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:27:18,902 - Loading OCI config
+[INFO] 2023-03-28 00:27:18,903 - Initialize service client with default config file
+[INFO] 2023-03-28 00:27:19,473 - Instance to create: VM.Standard.E2.1.Micro - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:27:19,473 - Check current instances in account
+[INFO] 2023-03-28 00:32:58,546 - #####################################################
+[INFO] 2023-03-28 00:32:58,546 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:32:58,546 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:32:58,546 - Loading OCI config
+[INFO] 2023-03-28 00:32:58,546 - Initialize service client with default config file
+[INFO] 2023-03-28 00:32:58,968 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:32:58,968 - Check current instances in account
+[INFO] 2023-03-28 00:32:58,968 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:33:05,577 - #####################################################
+[INFO] 2023-03-28 00:33:05,577 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:33:05,577 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:33:05,593 - Loading OCI config
+[INFO] 2023-03-28 00:33:05,593 - Initialize service client with default config file
+[INFO] 2023-03-28 00:33:06,031 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:33:06,031 - Check current instances in account
+[INFO] 2023-03-28 00:33:06,031 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:33:19,504 - #####################################################
+[INFO] 2023-03-28 00:33:19,504 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:33:19,504 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:33:19,504 - Loading OCI config
+[INFO] 2023-03-28 00:33:19,504 - Initialize service client with default config file
+[INFO] 2023-03-28 00:33:19,925 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:33:19,925 - Check current instances in account
+[INFO] 2023-03-28 00:33:19,925 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:34:58,487 - #####################################################
+[INFO] 2023-03-28 00:34:58,487 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:34:58,487 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:34:58,487 - Loading OCI config
+[INFO] 2023-03-28 00:34:58,503 - Initialize service client with default config file
+[INFO] 2023-03-28 00:34:58,971 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:34:58,971 - Check current instances in account
+[INFO] 2023-03-28 00:34:58,971 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:35:29,551 - #####################################################
+[INFO] 2023-03-28 00:35:29,551 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:35:29,551 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:35:29,551 - Loading OCI config
+[INFO] 2023-03-28 00:35:29,551 - Initialize service client with default config file
+[INFO] 2023-03-28 00:35:30,004 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:35:30,004 - Check current instances in account
+[INFO] 2023-03-28 00:35:30,004 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:36:21,688 - #####################################################
+[INFO] 2023-03-28 00:36:21,688 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:36:21,688 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:36:21,688 - Loading OCI config
+[INFO] 2023-03-28 00:36:21,688 - Initialize service client with default config file
+[INFO] 2023-03-28 00:36:22,141 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:36:22,141 - Check current instances in account
+[INFO] 2023-03-28 00:36:22,141 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:38:33,659 - #####################################################
+[INFO] 2023-03-28 00:38:33,659 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:38:33,659 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:38:33,659 - Loading OCI config
+[INFO] 2023-03-28 00:38:33,659 - Initialize service client with default config file
+[INFO] 2023-03-28 00:38:34,112 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:38:34,112 - Check current instances in account
+[INFO] 2023-03-28 00:38:34,112 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:38:41,389 - #####################################################
+[INFO] 2023-03-28 00:38:41,389 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:38:41,389 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:38:41,389 - Loading OCI config
+[INFO] 2023-03-28 00:38:41,389 - Initialize service client with default config file
+[INFO] 2023-03-28 00:38:41,873 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:38:41,873 - Check current instances in account
+[INFO] 2023-03-28 00:38:41,873 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:48:27,156 - #####################################################
+[INFO] 2023-03-28 00:48:27,156 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:48:27,158 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:48:27,159 - Loading OCI config
+[INFO] 2023-03-28 00:48:27,160 - Initialize service client with default config file
+[INFO] 2023-03-28 00:48:27,593 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:48:27,593 - Check current instances in account
+[INFO] 2023-03-28 00:48:27,595 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:55:30,275 - #####################################################
+[INFO] 2023-03-28 00:55:30,275 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:55:30,275 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:55:30,275 - Loading OCI config
+[INFO] 2023-03-28 00:55:30,275 - Initialize service client with default config file
+[INFO] 2023-03-28 00:55:30,728 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:55:30,728 - Check current instances in account
+[INFO] 2023-03-28 00:55:30,728 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:55:31,223 - No instance(s) found!
+[INFO] 2023-03-28 00:55:31,223 - Total ocpus: 0 - Total memory: 0 (GB) || Free 4 ocpus - Free memory: 24 (GB)
+[INFO] 2023-03-28 00:55:31,223 - Precheck pass! Create new instance VM.Standard.A1.Flex: 4 opus - 24 GB
+[INFO] 2023-03-28 00:56:26,101 - #####################################################
+[INFO] 2023-03-28 00:56:26,101 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:56:26,101 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:56:26,101 - Loading OCI config
+[INFO] 2023-03-28 00:56:26,101 - Initialize service client with default config file
+[INFO] 2023-03-28 00:56:26,555 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:56:26,555 - Check current instances in account
+[INFO] 2023-03-28 00:56:26,555 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:56:26,972 - No instance(s) found!
+[INFO] 2023-03-28 00:56:26,972 - Total ocpus: 0 - Total memory: 0 (GB) || Free 4 ocpus - Free memory: 24 (GB)
+[INFO] 2023-03-28 00:56:26,972 - Precheck pass! Create new instance VM.Standard.A1.Flex: 4 opus - 24 GB
+[INFO] 2023-03-28 00:56:49,494 - #####################################################
+[INFO] 2023-03-28 00:56:49,495 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:56:49,496 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:56:49,497 - Loading OCI config
+[INFO] 2023-03-28 00:56:49,498 - Initialize service client with default config file
+[INFO] 2023-03-28 00:56:49,934 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:56:49,935 - Check current instances in account
+[INFO] 2023-03-28 00:56:49,936 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:56:50,340 - No instance(s) found!
+[INFO] 2023-03-28 00:56:50,340 - Total ocpus: 0 - Total memory: 0 (GB) || Free 4 ocpus - Free memory: 24 (GB)
+[INFO] 2023-03-28 00:56:50,342 - Precheck pass! Create new instance VM.Standard.A1.Flex: 4 opus - 24 GB
+[INFO] 2023-03-28 00:57:33,270 - #####################################################
+[INFO] 2023-03-28 00:57:33,270 - Script to spawn VM.Standard.A1.Flex instance
+[INFO] 2023-03-28 00:57:33,270 - Start spawning instance VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:57:33,270 - Loading OCI config
+[INFO] 2023-03-28 00:57:33,270 - Initialize service client with default config file
+[INFO] 2023-03-28 00:57:33,710 - Instance to create: VM.Standard.A1.Flex - 4 ocpus - 24 GB
+[INFO] 2023-03-28 00:57:33,710 - Check current instances in account
+[INFO] 2023-03-28 00:57:33,710 - Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory
+[INFO] 2023-03-28 00:57:34,272 - No instance(s) found!
+[INFO] 2023-03-28 00:57:34,272 - Total ocpus: 0 - Total memory: 0 (GB) || Free 4 ocpus - Free memory: 24 (GB)
+[INFO] 2023-03-28 00:57:34,272 - Precheck pass! Create new instance VM.Standard.A1.Flex: 4 opus - 24 GB

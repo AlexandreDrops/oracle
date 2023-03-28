@@ -94,7 +94,7 @@ while True:
     compartment_id=compartmentId,
     display_name=displayName,
     source_details=oci.core.models.InstanceSourceViaBootVolumeDetails(
-        source_type="bootVolume", boot_volume_id=imageId,boot_volume_size_in_gbs=65),
+        source_type="bootVolume", boot_volume_id=imageId, boot_volume_size_in_gbs=50),
     create_vnic_details=oci.core.models.CreateVnicDetails(
         assign_public_ip=False, subnet_id=subnetId, assign_private_dns_record=True),
     agent_config=oci.core.models.LaunchInstanceAgentConfigDetails(
