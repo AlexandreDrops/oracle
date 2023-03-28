@@ -7,7 +7,7 @@ ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3E6dDfGNjLc1t9yPI3
 
 ocpus = 4
 memory_in_gbs = 24
-wait_s_for_retry = 15
+wait_s_for_retry = 10
 
 import oci
 import logging
@@ -26,10 +26,10 @@ logging.basicConfig(
 )
 
 logging.info("#####################################################")
-logging.info("Script to spawn VM.Standard.E2.1.Micro instance")
+logging.info("Script to spawn VM.Standard.A1.Flex instance")
 
 
-message = f'Start spawning instance VM.Standard.E2.1.Micro - {ocpus} ocpus - {memory_in_gbs} GB'
+message = f'Start spawning instance VM.Standard.A1.Flex - {ocpus} ocpus - {memory_in_gbs} GB'
 logging.info(message)
 
 logging.info("Loading OCI config")
@@ -38,35 +38,40 @@ config = oci.config.from_file(file_location="./config")
 logging.info("Initialize service client with default config file")
 to_launch_instance = oci.core.ComputeClient(config)
 
-message = f"Instance to create: VM.Standard.E2.1.Micro - {ocpus} ocpus - {memory_in_gbs} GB"
+
+message = f"Instance to create: VM.Standard.A1.Flex - {ocpus} ocpus - {memory_in_gbs} GB"
 logging.info(message)
 
 logging.info("Check current instances in account")
-current_instance = to_launch_instance.list_instances(compartment_id=compartmentId)
+logging.info(
+    "Note: Free upto 4xVM.Standard.A1.Flex instance, total of 4 ocpus and 24 GB of memory")
+current_instance = to_launch_instance.list_instances(
+    compartment_id=compartmentId)
 response = current_instance.data
 
 total_ocpus = total_memory = _A1_Flex = 0
 instance_names = []
 if response:
-    logging.info(f"{len	(response)} instance(s) found!")
+    logging.info(f"{len(response)} instance(s) found!")
     for instance in response:
         logging.info(f"{instance.display_name} - {instance.shape} - {int(instance.shape_config.ocpus)} ocpu(s) - {instance.shape_config.memory_in_gbs} GB(s) | State: {instance.lifecycle_state}")
         instance_names.append(instance.display_name)
-        if instance.shape == "VM.Standard.E2.1.Micro" and instance.lifecycle_state not in ("TERMINATING", "TERMINATED"):
+        if instance.shape == "VM.Standard.A1.Flex" and instance.lifecycle_state not in ("TERMINATING", "TERMINATED"):
             _A1_Flex += 1
             total_ocpus += int(instance.shape_config.ocpus)
             total_memory += int(instance.shape_config.memory_in_gbs)
 
-    message = f"Current: {_A1_Flex} active VM.Standard.E2.1.Micro instance(s) (including RUNNING OR STOPPED)"
+    message = f"Current: {_A1_Flex} active VM.Standard.A1.Flex instance(s) (including RUNNING OR STOPPED)"
     logging.info(message)
 else:
     logging.info(f"No instance(s) found!")
 
-message = f"Total ocpus: {total_ocpus} - Total memory: {total_memory} (GB) || Free {2-total_ocpus} ocpus - Free memory: {2-total_memory} (GB)"
+
+message = f"Total ocpus: {total_ocpus} - Total memory: {total_memory} (GB) || Free {4-total_ocpus} ocpus - Free memory: {24-total_memory} (GB)"
 logging.info(message)
 
-if total_ocpus + ocpus > 2 or total_memory + memory_in_gbs > 2:
-    message = "Total maximum resource exceed free tier limit (Over 2 AMD micro instances total). **SCRIPT STOPPED**"
+if total_ocpus + ocpus > 4 or total_memory + memory_in_gbs > 24:
+    message = "Total maximum resource exceed free tier limit (Over 4 ocpus/24GB total). **SCRIPT STOPPED**"
     logging.critical(message)
     sys.exit()
 
@@ -75,7 +80,7 @@ if displayName in instance_names:
     logging.critical(message)
     sys.exit()
 
-message = f"Precheck pass! Create new instance VM.Standard.E2.1.Micro: {ocpus} opus - {memory_in_gbs} GB"
+message = f"Precheck pass! Create new instance VM.Standard.A1.Flex: {ocpus} opus - {memory_in_gbs} GB"
 logging.info(message)
 
 while True:
@@ -85,7 +90,7 @@ while True:
         "ssh_authorized_keys": ssh_authorized_keys
     },
     availability_domain=availabilityDomain,
-    shape='VM.Standard.E2.1.Micro',
+    shape='VM.Standard.A1.Flex',
     compartment_id=compartmentId,
     display_name=displayName,
     source_details=oci.core.models.InstanceSourceViaBootVolumeDetails(
